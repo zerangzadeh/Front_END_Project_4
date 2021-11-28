@@ -1,0 +1,73 @@
+    @font-face {
+        font-family: IRANSans;
+        src: url('../fonts/IRANSans/IRANSansWeb_Light.woff') format('woff')
+    }
+    
+    * {
+        direction: rtl;
+        text-align: right;
+        font-family: IRANSans;
+        margin: 0%;
+        padding: 0;
+    }
+    
+    .my-bg-dark {
+        background-color: #404E67;
+    }
+    
+    .my-bg-gray {
+        background-color: #919aa3;
+    }
+    
+    .my-bg-light {
+        background-color: #dcdcdc;
+    }
+    
+    .my-bg-light2 {
+        background-color: #f3f3f3;
+    }
+    
+    .my-bg-white {
+        background-color: whitesmoke;
+    }
+    
+    .my-text-dark {
+        color: rgb(48, 46, 46);
+    }
+    
+    .my-text-gray2 {
+        color: #404E67;
+    }
+    
+    .my-text-gray1 {
+        color: #919aa3;
+    }
+    
+    .my-text-gray3 {
+        color: #dcdcdc;
+    }
+    
+    .ol-n {
+        outline: none
+    }
+    
+    .pointer {
+        cursor: pointer;
+    }
+    
+    .bg-custom-yellow {
+        background: -webkit-gradient(linear, left top, right top, from(#feb798), to(#fe9365));
+        background: linear-gradient(to right, #feb798, #fe93659c);
+    }
+    
+    .bg-custom-green {
+        background: linear-gradient(to right, #0df3a3, #0ac28283);
+    }
+    
+    .bg-custom-pink {
+        background: linear-gradient(to right, #fe909d, #fe5d789f);
+    }
+    
+    .bg-custom-blue {
+        background: linear-gradient(to right, #01dbdf, #01a9ac6c);
+    }
